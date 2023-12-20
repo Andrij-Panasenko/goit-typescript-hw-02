@@ -4,16 +4,16 @@
 */
 
 enum Days {
-  Monday,
-  Tuesday,
-  Wednesday,
-  Thursday,
-  Friday,
-  Saturday,
-  Sunday,
+  MONDAY,
+  TUESDAY,
+  WEDNESDAY,
+  THURSDAY,
+  FRIDAY,
+  SATURDAY,
+  SUNDAY,
 }
 
 function isWeerend(day: Days): boolean {
-  return  day === Days.Saturday || day === Days.Sunday;
+  return  day === Days.SATURDAY || day === Days.SUNDAY;
 }
 
